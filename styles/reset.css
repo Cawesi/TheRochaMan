@@ -23,6 +23,20 @@ a {
     color: white;
 }
 
+.titulo--principal {
+    color: white;
+    font-size: 3em;
+    font-family: Avenir-Bold, sans-serif;
+}
+
+.texto--grande--descritivos__claro {
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+
+    line-height: 1.5em;
+}
+
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
