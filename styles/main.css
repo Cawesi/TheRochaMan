@@ -14,7 +14,10 @@
 
         background-color: black;
 
+        position: relative;
+
         .banner {
+            min-height: 500px;
             width: 100%;
             height: 100%;
 
@@ -40,13 +43,186 @@
                 .banner_content {
                     width: 100%;
                     height: 100%;
-                    padding: 40px 16px 20px 96px;
+                    padding: 20px 16px 20px 96px;
 
                     .banner_content_box {
                         width: 100%;
                         height: 100%;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+
+                        .banner_titles {
+                            width: 40%;
+
+                            .banner_subject {
+                                padding-bottom: 16px;
+                            }
+                        }
+
+                        .banner_desciption {
+                            width: 60%;
+                        }
+
+                        .banner_buttons {
+                            width: 100%;
+                            height: 80px;
+
+                            display: flex;
+                            align-items: center;
+
+                            .box_buttons {
+                                width: 100%;
+                                height: 40px;
+                                display: flex;
+                                column-gap: 40px;
+
+                                .box_button_post {
+                                    width: 120px;
+                                    height: 100%;
+
+                                    background-color: #ff0000;
+
+                                    border-radius: 24px;
+                                    border: none;
+
+                                    .box_button_post_cover {
+                                        width: 0;
+                                        height: 40px;
+
+                                        border-radius: 24px;
+                                        border: none;
+
+                                        transition: all .6s ease;
+
+                                        .button_post {
+                                            width: 120px;
+                                            height: 100%;
+
+                                            cursor: pointer;
+
+                                            border-radius: 24px;
+                                            border: none;
+
+                                            background-color: transparent;
+                                        }
+                                    }
+                                }
+
+                                .box_button_post:hover {
+                                    border: none;
+
+                                    .box_button_post_cover {
+                                        width: 120px;
+                                        height: 40px;
+                                        background-color: #04c582;
+                                    }
+                                }
+
+                                .box_button_video {
+                                    width: 180px;
+                                    height: 100%;
+
+                                    border-radius: 50%;
+                                    
+                                    background-color: transparent;
+
+                                    display: flex;
+                                    align-items: center;
+                                    column-gap: 12px;
+
+                                    .box_button_video_cover {
+                                        height: 100%;
+
+                                        border: none;
+                                        border-radius: 50%;
+                                        border: 2px solid #ff0000;
+
+                                        .button_video {
+                                            width: 40px;
+                                            height: 100%;
+
+                                            cursor: pointer;
+                                            
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            border: none;
+                                            background-color: transparent;
+
+                                            .play_icon_button {
+                                                width: 16px;
+                                                height: 16px;
+
+                                                background-image: url("../sources/icons/buttons/play_white.png");
+                                                background-repeat: no-repeat;
+                                                background-position: center;
+                                                background-size: cover;
+                                            }
+                                        }
+                                    }
+
+                                    .box_button_video_cover:hover {
+                                        background-color: #ff0000;
+                                    }
+
+                                    .text_video_button {
+                                        width: 120px;
+                                        display: flex;
+                                        column-gap: 6px;
+                                        align-items: center;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
+            }
+
+            .interactions_button_banner {
+                position: absolute;
+                top: 16px;
+                right: 24px;
+
+                border-radius: 12px;
+
+                width: 100px;
+                height: 30px;
+                background-color: rgba(255, 255, 255, 20%);
+
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                .interactions_button_box {
+                    width: 16px;
+                    height: 16px;
+
+                    .interactions_linkk_button {
+                        width: 100%;
+                        height: 100%;
+
+                        display: block;
+                    }
+
+                    .interactions_linkk_fire {
+                        background-image: url("../sources/icons/buttons/fire_white.png");
+                    }
+
+                    .interactions_linkk_save {
+                        background-image: url("../sources/icons/buttons/bookmark_black.png");
+                    }
+
+                    .interactions_linkk_share {
+                        background-image: url("../sources/icons/buttons/share_blue_arrow.png");
+                    }
+                }
+            }
+
+            .interactions_button_banner:hover {
+                background-color: rgba(255, 255, 255, 80%);
             }
         }
 
@@ -56,8 +232,94 @@
             }
         }
 
-        .cards_full_banner {
-            display: none;
+        .subscribe {
+            width: 100%;
+            height: 100px;
+            margin-top: 16px;
+            border-radius: 8px;
+            background-color: #6857d2;
+
+            display: flex;
+            align-items: center;
+
+            .subscribe_text {
+                width: 50%;
+
+                .subscribe_text_box {
+                    display: flex;
+                    column-gap: 12px;
+                    justify-content: center;
+
+                    .subscribe_text_icon_community {
+                        border-radius: 8px;
+
+                        .subscribe_text_icon_imgcm {
+                            background-color: white;
+                            border-radius: 8px;
+
+                            .subscribe_image_icon {
+                                width: 50px;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+
+                    .subscribe_text_article {
+                        .subscribe_content_text_title {
+                            margin-bottom: 6px;
+                        }
+
+                        .subscribe_content_text {
+                            width: 400px;
+                        }
+                    }
+
+                    
+                }
+            }
+
+            .subscribe_input_mail-phone {
+                width: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .subscribe_input_mail-phone_form {
+                    width: 60%;
+                    height: 36px;
+
+                    position: relative;
+
+                    .contact_subscribe_input {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 8px;
+
+                        border-radius: 18px;
+                        border: 2px solid transparent;
+                    }
+
+                    .send_mail-phone_subscribe {
+                        position: absolute;
+                        right: 6px;
+                        top: 50%;
+                        transform: translatey(-50%);
+
+                        width: 100px;
+                        height: 30px;
+
+                        border-radius: 18px;
+                        border: 2px solid transparent;
+
+                        color: white;
+                        background-color: #6857d2;
+
+                        cursor: pointer;
+                    }
+                }
+            }
         }
+
     }
 }
