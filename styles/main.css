@@ -361,6 +361,11 @@
                 .emphasis_section_box:hover {
                     font-weight: bolder;
                 }
+
+                .emphasis_activate {
+                    font-weight: bold;
+                    border-bottom: 4px solid #04c582;
+                }
             }
 
             .emphasis_posts_box {
@@ -438,6 +443,173 @@
 
                     .emphasis_card5 {
                         background-image: url("../sources/images/destaques/post9.jpeg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .emphasis_card:hover {
+                    border: 3px solid white;
+
+                    .emphasis_card_content {
+                        width: 100%;
+                        height: 100%;
+
+                        .emphasis_card_content_cover {
+                            background-color: rgba(0, 0, 0, 40%);
+
+                            .emphasis_card_text {
+                                width: 90%;
+                                height: 50px;
+                                padding: 6px 6px 12px 6px;
+                                border-radius: 10px;
+                                background-color: rgba(255, 255, 255, 90%);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .emphasis_posts_videos {
+                display: none;
+                width: 100%;
+                margin-top: 16px;
+
+                display: flex;
+                justify-content: space-between;
+
+                display: none;
+
+                .emphasis_card {
+                    width: 250px;
+                    height: 200px;
+
+                    border-radius: 12px;
+                    border: 3px solid transparent;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .emphasis_card_content {
+                        width: 95%;
+                        height: 95%;
+
+                        border-radius: 12px;
+
+                        .emphasis_card_content_cover {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 12px;
+                            padding-bottom: 12px;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            .emphasis_video1 {
+                                width: 100%;
+
+                                border-radius: 12px;
+                            }
+                        }
+                    }
+                }
+
+                .emphasis_card:hover {
+                    .emphasis_card_content {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .emphasis_posts_products {
+                display: none;
+                width: 100%;
+                margin-top: 16px;
+
+                display: flex;
+                justify-content: space-between;
+
+                display: none;
+
+                .emphasis_card {
+                    width: 250px;
+                    height: 200px;
+
+                    border-radius: 12px;
+                    border: 3px solid transparent;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .emphasis_card_content {
+                        width: 95%;
+                        height: 95%;
+
+                        border-radius: 12px;
+
+                        .emphasis_card_content_cover {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 12px;
+                            padding-bottom: 12px;
+
+                            display: flex;
+                            align-items: end;
+                            justify-content: center;
+
+                            .button_emphasis_buy {
+                                width: 100px;
+                                height: 20px;
+                                border-radius: 4px;
+                                background-color: #04c582;
+
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .button_emphasis_buy:hover {
+                                width: 108px;
+                                height: 26px;
+                            }
+                        }
+                    }
+
+                    .emphasis_card1 {
+                        background-image: url("../sources/images/destaques/black_friday.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                    .emphasis_card2 {
+                        background-image: url("../sources/images/destaques/alienware_promo.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                    .emphasis_card3 {
+                        background-image: url("../sources/images/destaques/samsung_promo.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                    .emphasis_card4 {
+                        background-image: url("../sources/images/destaques/ps5_promo.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                    .emphasis_card5 {
+                        background-image: url("../sources/images/destaques/iphone_promo.jpg");
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
