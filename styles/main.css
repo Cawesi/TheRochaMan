@@ -479,8 +479,6 @@
                 display: flex;
                 justify-content: space-between;
 
-                display: none;
-
                 .emphasis_card {
                     width: 250px;
                     height: 200px;
@@ -532,8 +530,6 @@
 
                 display: flex;
                 justify-content: space-between;
-
-                display: none;
 
                 .emphasis_card {
                     width: 250px;
@@ -636,6 +632,10 @@
                         }
                     }
                 }
+            }
+
+            .emphasis_deactivate_section {
+                display: none;
             }
         }
 
