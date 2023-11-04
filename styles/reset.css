@@ -69,6 +69,15 @@ a {
 
 }
 
+.text--emphasis {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Sarala', sans-serif;
+
+    text-align: center;
+    color: black;
+}
+
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
