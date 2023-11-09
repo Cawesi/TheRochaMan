@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: Avenir-Regular;
     src: url("../sources/fonts/Avenir-Regular.woff2");
@@ -79,8 +83,16 @@ a {
 
 .trend--rnk {
     font-family: Avenir-Regular, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    color: white;
+}
+
+.trend--rnk--name {
+    font-family: Avenir-Regular, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
 }
 
 /* font-family: 'Inter', sans-serif;
