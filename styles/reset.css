@@ -66,10 +66,12 @@ a {
 .subscribe--text--title {
     font-family: Avenir-Bold, sans-serif;
     font-size: 1.6rem;
+    color: white;
 }
 
 .subscribe--text--content {
     font-family: Avenir-Regular, sans-serif;
+    color: white;
 }
 
 .text--emphasis {
